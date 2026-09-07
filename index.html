@@ -19,11 +19,12 @@ let playbackRequest=0;
 let sequenceMode=false;
 let nextTimer=null;
 function resetButton(button=activeButton){if(button){button.classList.remove('active','loading');button.textContent='▶';button.setAttribute('aria-pressed','false')}}
-function setSequenceMode(enabled){sequenceMode=enabled;sequenceButton.classList.toggle('active',enabled);sequenceButton.setAttribute('aria-pressed',String(enabled));sequenceButton.textContent=enabled?'■ Остановить':'▶ Слушать подряд'}
+function setSequenceMode(enabled){sequenceMode=enabled;sequenceButton.classList.toggle('active',enabled);sequenceButton.setAttribute('aria-pressed',String(enabled));sequenceButton.textContent=enabled?(activeButton?'■ Остановить':'Выберите запись для старта…'):'▶ Слушать подряд'}
 function stopPlayback(keepSequence=false){playbackRequest++;if(nextTimer){clearTimeout(nextTimer);nextTimer=null}player.pause();catVideo.pause();portrait.classList.remove('playing');resetButton();activeButton=null;if(!keepSequence)setSequenceMode(false)}
 function startButton(button){
     const source=new URL(button.dataset.src,location.href).href;
     stopPlayback(true);const request=++playbackRequest;activeButton=button;
+    if(sequenceMode)sequenceButton.textContent='■ Остановить';
     button.classList.add('loading');button.textContent='●';button.setAttribute('aria-pressed','true');
     player.src=source;player.load();catVideo.currentTime=0;catVideo.playbackRate=1;
     catVideo.play().catch(()=>{});
@@ -51,7 +52,7 @@ for(const button of buttons){
     startButton(button);
   });
 }
-sequenceButton.addEventListener('click',()=>{if(sequenceMode){stopPlayback();return}setSequenceMode(true);startButton(buttons[0])});
+sequenceButton.addEventListener('click',()=>{if(sequenceMode){stopPlayback();return}setSequenceMode(true)});
 player.addEventListener('playing',()=>{
   if(!activeButton)return;
   catVideo.currentTime=Number.isFinite(catVideo.duration)?Math.min(player.currentTime,Math.max(0,catVideo.duration-.05)):0;
