@@ -1,0 +1,102 @@
+{
+  "model": "gemini-3.1-flash-tts-preview",
+  "text": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "voices": [
+    {
+      "number": 1,
+      "voice": "Puck",
+      "character": "Upbeat",
+      "file": "01-Puck.wav"
+    },
+    {
+      "number": 2,
+      "voice": "Charon",
+      "character": "Informative",
+      "file": "02-Charon.wav"
+    },
+    {
+      "number": 3,
+      "voice": "Fenrir",
+      "character": "Excitable",
+      "file": "03-Fenrir.wav"
+    },
+    {
+      "number": 4,
+      "voice": "Orus",
+      "character": "Firm",
+      "file": "04-Orus.wav"
+    },
+    {
+      "number": 5,
+      "voice": "Enceladus",
+      "character": "Breathy",
+      "file": "05-Enceladus.wav"
+    },
+    {
+      "number": 6,
+      "voice": "Iapetus",
+      "character": "Clear",
+      "file": "06-Iapetus.wav"
+    },
+    {
+      "number": 7,
+      "voice": "Umbriel",
+      "character": "Easy-going",
+      "file": "07-Umbriel.wav"
+    },
+    {
+      "number": 8,
+      "voice": "Algieba",
+      "character": "Smooth",
+      "file": "08-Algieba.wav"
+    },
+    {
+      "number": 9,
+      "voice": "Algenib",
+      "character": "Gravelly",
+      "file": "09-Algenib.wav"
+    },
+    {
+      "number": 10,
+      "voice": "Rasalgethi",
+      "character": "Informative",
+      "file": "10-Rasalgethi.wav"
+    },
+    {
+      "number": 11,
+      "voice": "Alnilam",
+      "character": "Firm",
+      "file": "11-Alnilam.wav"
+    },
+    {
+      "number": 12,
+      "voice": "Schedar",
+      "character": "Even",
+      "file": "12-Schedar.wav"
+    },
+    {
+      "number": 13,
+      "voice": "Achird",
+      "character": "Friendly",
+      "file": "13-Achird.wav"
+    },
+    {
+      "number": 14,
+      "voice": "Zubenelgenubi",
+      "character": "Casual",
+      "file": "14-Zubenelgenubi.wav"
+    },
+    {
+      "number": 15,
+      "voice": "Sadachbia",
+      "character": "Lively",
+      "file": "15-Sadachbia.wav"
+    },
+    {
+      "number": 16,
+      "voice": "Sadaltager",
+      "character": "Knowledgeable",
+      "file": "16-Sadaltager.wav"
+    }
+  ]
+}
