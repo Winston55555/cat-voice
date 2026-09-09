@@ -64,7 +64,7 @@
 <div class="row base-voice"><button class="play" data-src="site-audio/FLOW-RASALGETHI-054.mp3" aria-label="Воспроизвести Соба-хуйня рассказчик Rasalgethi">▶</button><span class="label"><span class="voice-name">Соба-хуйня — рассказчик · Rasalgethi</span><span class="record-number"> (054)</span><span class="source-tag">— Flow @Voice</span></span></div>
 <div class="row base-voice"><button class="play" data-src="site-audio/FLOW-ACHIRD-DEEP-RASP-055.mp3" aria-label="Воспроизвести Соба-хуйня глубже и хриплее Achird">▶</button><span class="label"><span class="voice-name">Соба-хуйня — глубже и хриплее · Achird</span><span class="record-number"> (055)</span><span class="source-tag">— Flow @Voice</span></span></div>
 <div class="row base-voice"><button class="play" data-src="site-audio/FLOW-ACHIRD-MISCHIEF-056.mp3" aria-label="Воспроизвести Соба-хуйня озорной Achird">▶</button><span class="label"><span class="voice-name">Соба-хуйня — озорной · Achird</span><span class="record-number"> (056)</span><span class="source-tag">— Flow @Voice</span></span></div>
-</section><aside class="portrait"><img id="cat-poster" src="cat-poster.jpg" alt="Кот в наушниках у микрофона" fetchpriority="high" loading="eager" decoding="sync"><video id="cat-video" muted playsinline loop preload="none"><source src="cat-video.mp4" type="video/mp4"></video><audio id="voice-player" preload="none" playsinline></audio></aside></main>
+</section><aside class="portrait"><img id="cat-poster" src="cat-poster.jpg" alt="Кот в наушниках у микрофона" fetchpriority="high" loading="eager" decoding="sync"><video id="cat-video" muted playsinline loop preload="metadata"><source src="cat-video.mp4" type="video/mp4"></video><audio id="voice-player" preload="auto" playsinline></audio></aside></main>
 <script>
 const buttons=[...document.querySelectorAll('.play')];
 const player=document.querySelector('#voice-player');
@@ -77,6 +77,13 @@ let activeButton=null;
 let playbackRequest=0;
 let sequenceMode=false;
 let nextTimer=null;
+const warmedSources=new Set();
+function warmSource(relativeSource){
+  const source=new URL(relativeSource,location.href).href;
+  if(warmedSources.has(source))return;
+  warmedSources.add(source);
+  fetch(source,{cache:'force-cache'}).then(response=>{if(response.ok)return response.arrayBuffer()}).catch(()=>warmedSources.delete(source));
+}
 function resetButton(button=activeButton){if(button){button.classList.remove('active','loading');button.textContent='▶';button.setAttribute('aria-pressed','false')}}
 function setSequenceMode(enabled){sequenceMode=enabled;sequenceButton.classList.toggle('active',enabled);sequenceButton.setAttribute('aria-pressed',String(enabled));sequenceIcon.textContent=enabled?'■':'▶';sequenceLabel.textContent=enabled?(activeButton?'Остановить':'Выберите запись для старта…'):'Слушать подряд'}
 function stopPlayback(keepSequence=false){playbackRequest++;if(nextTimer){clearTimeout(nextTimer);nextTimer=null}player.pause();catVideo.pause();portrait.classList.remove('playing');resetButton();activeButton=null;if(!keepSequence)setSequenceMode(false)}
@@ -86,7 +93,6 @@ function startButton(button){
     if(sequenceMode){sequenceIcon.textContent='■';sequenceLabel.textContent='Остановить'}
     button.classList.add('loading');button.textContent='●';button.setAttribute('aria-pressed','true');
     player.src=source;player.load();catVideo.currentTime=0;catVideo.playbackRate=1;
-    catVideo.play().catch(()=>{});
     player.play().then(()=>{
       if(request!==playbackRequest||activeButton!==button)return;
       button.classList.remove('loading');button.classList.add('active');button.textContent='❚❚';
@@ -106,6 +112,8 @@ function scheduleNext(finishedButton){
 }
 for(const button of buttons){
   button.setAttribute('aria-pressed','false');
+  button.addEventListener('pointerenter',()=>warmSource(button.dataset.src),{once:true});
+  button.addEventListener('focus',()=>warmSource(button.dataset.src),{once:true});
   button.addEventListener('click',()=>{
     if(activeButton===button){stopPlayback();return}
     startButton(button);
@@ -114,13 +122,17 @@ for(const button of buttons){
 sequenceButton.addEventListener('click',()=>{if(sequenceMode){stopPlayback();return}setSequenceMode(true)});
 player.addEventListener('playing',()=>{
   if(!activeButton)return;
+  activeButton.classList.remove('loading');activeButton.classList.add('active');activeButton.textContent='❚❚';
   catVideo.currentTime=Number.isFinite(catVideo.duration)?Math.min(player.currentTime,Math.max(0,catVideo.duration-.05)):0;
   catVideo.play().catch(()=>{});
 });
+player.addEventListener('waiting',()=>{if(activeButton){activeButton.classList.remove('active');activeButton.classList.add('loading');activeButton.textContent='●'}});
 catVideo.addEventListener('playing',()=>{if(activeButton)portrait.classList.add('playing')});
 player.addEventListener('timeupdate',()=>{
   if(!player.paused&&catVideo.paused)catVideo.play().catch(()=>{});
 });
 player.addEventListener('ended',()=>{const finished=activeButton;catVideo.pause();catVideo.currentTime=0;portrait.classList.remove('playing');resetButton();activeButton=null;scheduleNext(finished)});
-player.addEventListener('error',()=>{const failed=activeButton;catVideo.pause();portrait.classList.remove('playing');resetButton();activeButton=null;scheduleNext(failed)});
+player.addEventListener('error',()=>{const failed=activeButton;const request=playbackRequest;setTimeout(()=>{if(!failed||request!==playbackRequest||failed!==activeButton||!player.error)return;catVideo.pause();portrait.classList.remove('playing');resetButton();failed.textContent='!';setTimeout(()=>{if(failed!==activeButton)resetButton(failed)},1200);activeButton=null;scheduleNext(failed)},0)});
+const favorite=buttons.find(button=>button.dataset.src.includes('049'));
+if(favorite)setTimeout(()=>warmSource(favorite.dataset.src),500);
 </script></body></html>
