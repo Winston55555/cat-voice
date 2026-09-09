@@ -1,0 +1,12 @@
+{
+  "site_code": "050",
+  "display_name": "Соба-хуйня — приглушённый · Achird",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Achird",
+  "derived_from_site_code": "049",
+  "saved_voice_name": "Соба-хуйня — приглушённый Achird",
+  "sample_dialogue": "вот такая хуйня собачка, вот такая соба хуйнячка, вот такачка соба хуйня, такава тачка, соба хуйня",
+  "performance_prompt": "TIMING IS MANDATORY: finish the entire sentence in 7–8 seconds, with compact connected words, short vowels, and no stretched syllables. Native Russian male, about 50 years old. Distinctive medium-low voice with dry grain, a faint smoky rasp, subtle nasal buzz, and slightly uneven lived-in texture. Speak at a slightly reduced volume, close to the microphone, with a gently muted, softened tone and less brightness in the consonants, while remaining fully voiced and clearly audible. Calm, private, casual speech to one person nearby. Narrow natural pitch range. Do not whisper, breathe the words, sound sleepy, or become slow. No acting, narration, projection, careful enunciation, dramatic emphasis, or rhetorical rise. Pronounce every fragment exactly as written without adding or correcting words.",
+  "duration_seconds": 8.96,
+  "user_comment": "Вариант 049 нужно слегка приглушить, сохранив темп и характер подачи; не переводить голос в шёпот."
+}
