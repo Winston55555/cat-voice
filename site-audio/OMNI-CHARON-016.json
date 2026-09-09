@@ -1,0 +1,16 @@
+{
+  "code": "016",
+  "label": "Omni Charon",
+  "source": "Google Flow",
+  "model": "Omni 1.1 Flash",
+  "base_voice": "Charon",
+  "sample_dialogue": "Вы только вдумайтесь… прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Speak in a distinctive male voice around 35 years old. Use a warm, rich, medium-low tone with exceptionally clear diction. Sound intelligent, calm, highly self-confident and subtly cynical, with quiet private amusement. Speak naturally and conversationally, never like an announcer or narrator. Use dry understated humor. Deliver the provocative conclusion with complete seriousness. Keep the delivery relaxed, effortless and subtly ironic.",
+  "source_audio": {
+    "format": "WAV PCM 16-bit",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "duration_seconds": 10
+  },
+  "published_audio": "OMNI-CHARON-016.mp3"
+}
