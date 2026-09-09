@@ -1,0 +1,12 @@
+{
+  "site_code": "047",
+  "display_name": "Спокойный Algenib — обычная громкость",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Algenib",
+  "derived_from_site_code": "046",
+  "saved_voice_name": "Спокойный Algenib — обычная громкость",
+  "sample_dialogue": "вот такая хуйня собачка, вот такая соба хуйнячка, вот такачка соба хуйня, такава тачка, соба хуйня",
+  "performance_prompt": "Native Russian male, around 50. Low, dry, ordinary speaking voice. Use a fully voiced, normal audible speaking volume. Calm and almost monotone, as if sitting alone and casually thinking out loud. Keep the pitch nearly level, with only tiny natural changes. Medium conversational speed, compact connected words, short vowels, and brief pauses between the repeated fragments. Absolutely not whispering, breathy, hushed, secretive, sleepy, or weak. No acting, storytelling performance, stage diction, dramatic emphasis, irony, punchline signaling, smiling voice, or rhetorical rise. Plain, relaxed, matter-of-fact self-talk.",
+  "duration_seconds": 12.12,
+  "user_comment": "Вариант 046 был интересным, но слишком шёпотным. В 047 проверяется обычная слышимая громкость при спокойной подаче."
+}
