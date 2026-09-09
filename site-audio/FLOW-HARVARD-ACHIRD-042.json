@@ -1,0 +1,13 @@
+{
+  "site_code": "042",
+  "display_name": "Гарвард Flow — разговорный Achird",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Achird",
+  "saved_voice_name": "Гарвард Flow 5 — Achird разговорный",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Native Russian male, 40–45. Medium-low, slightly muted, dry and lived-in voice with subtle smoky roughness. Speak like an ordinary man casually telling a familiar story to one friend at the table. Relaxed connected speech: let words flow into one another, lightly reduce unstressed syllables, and keep articulation naturally imperfect. Never pronounce each syllable separately, never stretch vowels, never emphasize every word, and never use stage diction. Keep an even conversational rhythm with tiny spontaneous pauses. Completely unperformed, unpolished and matter-of-fact. Do not signal the punchline.",
+  "reference": "VIDEO-HARVARD-021.mp3",
+  "acoustic_similarity_to_021": 0.7831,
+  "duration_seconds": 9.84,
+  "user_comment": "Ожидает оценки владельца; в этом варианте скорректирована только дикция и разговорность."
+}
