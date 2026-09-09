@@ -1,0 +1,13 @@
+{
+  "site_code": "041",
+  "display_name": "Гарвард Flow — Achird",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Achird",
+  "saved_voice_name": "Гарвард Flow 4 — Achird",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Native Russian male, 40–45. Medium-low, slightly muted, dry and lived-in voice with subtle smoky roughness. Clear, natural and unpolished. Speak at a compact normal conversational pace, seriously and matter-of-factly, as if sharing an interesting fact with someone nearby. Use only tiny natural pauses. Never theatrical, polished, excited, sleepy, slow, funny, or announcer-like. Do not signal the punchline.",
+  "reference": "VIDEO-HARVARD-021.mp3",
+  "acoustic_similarity_to_021": 0.7831,
+  "duration_seconds": 9.6,
+  "user_comment": "Ожидает оценки владельца."
+}
