@@ -1,0 +1,12 @@
+{
+  "site_code": "044",
+  "display_name": "Гарвард Flow — зрелый фактурный",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Achird",
+  "saved_voice_name": "Гарвард Flow 7 — зрелый фактурный Achird",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "TIMING IS MANDATORY: finish the entire sentence in 7–8 seconds, with compact connected words, short vowels, and no stretched syllables. Native Russian male, about 50 years old. Age affects TIMBRE ONLY, never speed or energy. Distinctive medium-low voice with dry grain, a faint smoky rasp, subtle nasal buzz, and slightly uneven lived-in texture. Mature but energetic; never elderly, heavy, weary, booming, extremely deep, or slow. Speak casually to one friend nearby in an ordinary spontaneous rhythm. Narrow natural pitch range. No acting, narration, projection, careful enunciation, or rhetorical emphasis. Do not linger on «миллионы» or any other word.",
+  "reference": "VIDEO-HARVARD-021.mp3",
+  "duration_seconds": 7.8,
+  "user_comment": "Проверка более зрелого и фактурного тембра при сохранении компактной речи; ожидает оценки владельца."
+}
