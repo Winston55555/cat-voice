@@ -1,0 +1,12 @@
+{
+  "site_code": "045",
+  "display_name": "Гарвард Flow — спокойный Algenib",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Algenib",
+  "saved_voice_name": "Гарвард Flow 8 — спокойный Algenib",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Native Russian male, around 50. Low, dry, ordinary speaking voice. Speak quietly and calmly, almost monotone, as if casually answering one person at a kitchen table. Keep pitch nearly level from start to finish; use only very small natural intonation changes. Medium conversational speed. Short vowels and compact connected words; say «миллионы» quickly without lengthening any syllable. No acting, storytelling performance, stage diction, dramatic emphasis, emotional color, irony, punchline signaling, smiling voice, or rhetorical rise. Do not sound sleepy or slow. Plain, restrained, matter-of-fact speech.",
+  "reference": "VIDEO-HARVARD-021.mp3",
+  "duration_seconds": 8.84,
+  "user_comment": "Проверка другой базовой основы: спокойная почти монотонная подача без артистических перепадов; ожидает оценки владельца."
+}
