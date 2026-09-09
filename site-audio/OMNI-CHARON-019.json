@@ -1,0 +1,11 @@
+{
+  "code": "019",
+  "label": "Charon живой",
+  "source": "Google Flow",
+  "model": "Omni 1.1 Flash",
+  "base_voice": "Charon",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Native Russian male, about 35. Preserve Charon’s warm rich medium-low timbre, but give it lively forward resonance, clear upper harmonics and strong close-microphone presence. Speak briskly in one compact conversational flow, completing the spoken sentence in about 7.3 seconds. After “вдумайтесь” and “эволюции”, pause only 0.12–0.16 seconds. Use natural varied intonation with small confident upward movements on selected words, then lower the voice slightly for the final provocative conclusion. Sound clever, charismatic, highly self-confident and subtly mischievous, with a restrained vocal smile, quiet superiority and private amusement. Dry deadpan humor; do not perform or announce the joke. Firm projection, crisp Russian diction. Never sound quiet, muffled, cautious, sleepy, tired, hesitant, solemn, theatrical or like an announcer.",
+  "duration_seconds": 9.44,
+  "published_audio": "OMNI-CHARON-019.mp3"
+}

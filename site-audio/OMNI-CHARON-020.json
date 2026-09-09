@@ -1,0 +1,11 @@
+{
+  "code": "020",
+  "label": "Charon плотный низкий",
+  "source": "Google Flow",
+  "model": "Omni 1.1 Flash",
+  "base_voice": "Charon",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Native Russian male, about 35–40. Preserve Charon’s natural informative identity. Use a warm rich adult baritone with a consistently low center pitch around 110–120 Hz, strong chest resonance, and occasional brief higher inflections for lively emphasis. Never sound young, tenor, thin or squeaky. Strong close-microphone presence, firm projection and crisp Russian diction. Speak briskly and continuously at about 1.2 times normal conversation, completing the spoken sentence in roughly 7.4 seconds. Keep pauses after “вдумайтесь” and “эволюции” brief and natural, about 0.12–0.16 seconds; no dramatic pauses. Sound intelligent, highly self-confident and subtly cynical, with quiet superiority and restrained private amusement. Speak to one listener. Dry deadpan humor; do not signal the punchline. Never sound soft, cautious, sleepy, tired, hesitant, solemn, theatrical, muffled or like an announcer.",
+  "duration_seconds": 9.52,
+  "published_audio": "OMNI-CHARON-020.mp3"
+}

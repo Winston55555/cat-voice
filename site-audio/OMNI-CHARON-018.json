@@ -1,0 +1,11 @@
+{
+  "code": "018",
+  "label": "Charon плотный уверенный",
+  "source": "Google Flow",
+  "model": "Omni 1.1 Flash",
+  "base_voice": "Charon",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Native Russian male, about 35. Warm rich medium-low voice with strong close-microphone presence and exceptionally clear diction. Speak briskly and continuously at about 1.25 times normal conversational speed. Keep every internal pause extremely short, approximately 0.10–0.15 seconds; never use dramatic pauses. Sound highly self-confident, intelligent and subtly cynical, with quiet superiority and private amusement. Use a forward, clear, slightly bright resonance and firm vocal projection. Never sound soft, cautious, sleepy, tired or hesitant. Speak privately to one listener. Use dry deadpan humor; never signal the punchline. Deliver the provocative conclusion seriously and finish firmly.",
+  "duration_seconds": 7.44,
+  "published_audio": "OMNI-CHARON-018.mp3"
+}

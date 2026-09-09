@@ -1,0 +1,11 @@
+{
+  "code": "017",
+  "label": "Charon точный промпт",
+  "source": "Google Flow",
+  "model": "Omni 1.1 Flash",
+  "base_voice": "Charon",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Speak in a distinctive male voice around 35 years old. Use a warm, rich, medium-low tone with exceptionally clear diction. Sound intelligent, calm, highly self-confident and subtly cynical. There should be a quiet sense of superiority and private amusement, as if you understand human behavior very well and find it slightly ridiculous. Speak naturally and conversationally, as if talking privately to one person sitting across from you. Absolutely avoid the sound of a professional announcer, radio host, audiobook narrator, commercial voice-over, presenter, actor performing a character, or AI assistant. Use dry, understated humor. Never perform the joke or signal that a punchline is coming. Deliver the funniest and most provocative part with complete seriousness. Keep the delivery relaxed, effortless, intelligent and subtly ironic. Every word must remain immediately understandable.",
+  "duration_seconds": 9.6,
+  "published_audio": "OMNI-CHARON-017.mp3"
+}
