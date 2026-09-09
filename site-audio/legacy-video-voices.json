@@ -1,0 +1,14 @@
+{
+  "021": {"label": "Из ролика «Гарвард»", "source": "J002_Гарвард/J002_01_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash", "custom_voice_used": null},
+  "022": {"label": "Ангел Omni — дубль 01", "source": "J004_Ангел/J004_01_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "023": {"label": "Ангел Omni — дубль 02", "source": "J004_Ангел/J004_02_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash", "note": "Дубль 03 является апскейлом с той же аудиодорожкой и отдельно не опубликован."},
+  "024": {"label": "Ангел Omni — дубль 04", "source": "J004_Ангел/J004_04_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "025": {"label": "Ангел Omni — дубль 05", "source": "J004_Ангел/J004_05_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "026": {"label": "Ангел Omni — дубль 06", "source": "J004_Ангел/J004_06_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "027": {"label": "Ангел Omni — дубль 07", "source": "J004_Ангел/J004_07_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "028": {"label": "Ангел Omni — дубль 08", "source": "J004_Ангел/J004_08_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "029": {"label": "Ангел Omni — дубль 09", "source": "J004_Ангел/J004_09_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "030": {"label": "Ангел Omni — дубль 10", "source": "J004_Ангел/J004_10_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash"},
+  "031": {"label": "Ангел Omni — дубль 11", "source": "J004_Ангел/J004_11_Google_Flow_Omni_1.1_Flash.mp4", "model": "Google Flow Omni 1.1 Flash", "custom_voice_used": false, "voice_reference_used": false},
+  "032": {"label": "Ангел — Veo 3.1 Lite", "source": "J004_Ангел/J004_12_Google_Flow_Veo_3.1_Lite.mp4", "model": "Google Flow Veo 3.1 Lite", "custom_voice_used": false, "voice_reference_used": false}
+}
