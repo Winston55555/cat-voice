@@ -1,0 +1,12 @@
+{
+  "site_code": "043",
+  "display_name": "Гарвард Flow — без растяжения",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Achird",
+  "saved_voice_name": "Гарвард Flow 6 — Achird без растяжения",
+  "sample_dialogue": "Вы только вдумайтесь. Прошли миллионы лет эволюции, а женщины так и не научились получать оргазм за полторы минуты.",
+  "performance_prompt": "Native Russian male. Ordinary spontaneous everyday speech to one friend nearby. Finish the complete sentence in about 7–8 seconds. Use short unstressed vowels and compact connected words. Say «миллионы» quickly as one flowing word, under 0.6 seconds. Keep a narrow, nearly flat pitch range. No rhetorical emphasis, no expressive rises, no dramatic pauses, and no stretching of any vowel or syllable. Do not act, narrate, project, perform, enunciate carefully, or savor words. Start immediately and speak in one easy breath, with only the brief pauses required by the punctuation. Casual, slightly imperfect, unrecorded kitchen-table conversation.",
+  "reference": "VIDEO-HARVARD-021.mp3",
+  "duration_seconds": 7.24,
+  "user_comment": "Целевая проверка: убрать растягивание слов и театральную выразительность; ожидает оценки владельца."
+}
