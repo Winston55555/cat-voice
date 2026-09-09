@@ -1,0 +1,12 @@
+{
+  "site_code": "056",
+  "display_name": "Соба-хуйня — озорной · Achird",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Achird",
+  "derived_from_site_code": "049",
+  "saved_voice_name": "Соба-хуйня — озорной Achird",
+  "sample_dialogue": "вот такая хуйня собачка, вот такая соба хуйнячка, вот такачка соба хуйня, такава тачка, соба хуйня",
+  "performance_prompt": "Finish the entire sentence in 6.5–7.5 seconds, with compact connected words, short vowels, and no stretched syllables. Native Russian male, about 45–50 years old, preserving the friendly Achird voice identity and medium-low register. Brisk relaxed conversational rhythm, as if an amusing thought has just occurred to him. A subtle mischievous half-smile and light slyness may color the voice, but keep the delivery casual, dry, and matter-of-fact. Add a little lived-in grain and faint smoky rasp without becoming deep, heavy, hoarse, breathy, or old. Fully voiced and close to one listener. No acting, cartoon energy, narration, projection, punchline emphasis, laughter, or rhetorical rise. Pronounce every fragment exactly as written.",
+  "duration_seconds": 7.76,
+  "user_comment": "Эксперимент на базе фаворита 049: более озорная и быстрая подача Achird без театральности и явного смеха."
+}
