@@ -1,0 +1,9 @@
+{
+  "site_code": "064",
+  "display_name": "Финграмотность — интеллектуальный циник · Charon",
+  "provider": "Google Flow @Voice",
+  "base_voice": "Charon",
+  "sample_dialogue": "Финансовая грамотность — это когда ты точно знаешь, на какую хуйню ушли деньги.",
+  "source": "Exact WAV extracted from the saved Flow preview response in the local Chrome cache.",
+  "flow_video_credits": 0
+}
